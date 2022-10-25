@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="my-container ">
+            <div class=" mx-auto head  text-center   " id="headContainer">
+                <input type="file" accept="image/*" id="uploadImg" hidden>
+                <div class="mx-auto  img-container ">
+                    <img src="imgs/upload.png" class="w-100 h-100" alt="" id="img">
+                </div>
+                <p class="m-0 " id="prg">Browser File TO Upload</p>
+
+            </div>
+           
+           
+            
+        </div>
+        <div class="Inputs-section">
+            <div class="content d-flex justify-content-between">
+                <div class="count  ">
+                    <label for="">width</label>
+                    <input type="text" id="width">
+                </div>
+                <div class="count ">
+                    <label for="">height</label>
+                    <input type="text" id="height">
+                </div>
+
+
+            </div>
+            <div class="d-flex justify-content-between  options">
+                <div class="option   ">
+                    <input type="checkbox" name="" id="ratioInput" checked>
+                    <label for="lock">Lock aspect ratio</label>
+                </div>
+                <div class="option">
+                    <input type="checkbox" name="" id="qualityInput">
+                    <label for="reduce">Reduce quality</label>
+                </div>
+            </div>
+            <button id="downloadBtn">Download Image</button>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

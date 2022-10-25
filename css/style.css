@@ -1,0 +1,110 @@
+body{
+    height: 100vh;
+    background-color: #927dfc;
+}
+
+
+section{
+   height: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my-container{
+    width: 450px;
+    
+    background-color: white;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    padding: 30px;
+}
+
+.img-container{
+    
+   width: 50%;
+}
+
+
+.head{
+    border: 2px dashed #afafaf;
+    width: 100%;
+   
+    cursor: pointer;
+}
+
+.head p{
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+
+
+.count{
+    width: calc(100%/2 - 20px);
+}
+.count label {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.count input{
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 18px;
+    border: 1px solid #aaa;
+    padding: 0px 15px;
+}
+.count input:focus{
+    border: 2px solid #927dfc;
+}
+
+.options{
+    padding-top: 20px;
+}
+
+.option {
+    width: calc(100%/2 - 20px);
+}
+
+.option input{
+    height: 17px;
+    width: 17px;
+    accent-color: #927dfc;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+.option label{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button{
+    width: 100%;
+    padding: 15px 0px;
+    margin-top: 30px;
+    color: white;
+    outline: none;
+    background-color: #927dfc;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+}
+
+
+.Inputs-section{
+    width: 450px;
+    height: 0px;
+    opacity: 0;
+    background-color: white;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding: 0px 30px 30px 30px;
+    pointer-events: painted;
+}
+
